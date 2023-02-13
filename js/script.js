@@ -2,9 +2,11 @@ var app = new Vue({
     el: '#app',
     data: {
         // creo la variabile che mi serve per stoppare setinterval
-        autoSlideIterval: 0,
+        autoSlideInterval: 0,
+
         // indexCarousel è l'indice dell'array carouselImages
         indexCarousel: 0,
+
         // creo un array di img per il carosello
         carouselImages: [
             "img/campagna.jpg",
