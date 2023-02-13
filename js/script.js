@@ -7,7 +7,7 @@ var app = new Vue({
         // indexCarousel è l'indice dell'array carouselImages
         indexCarousel: 0,
 
-        // creo un array di img per il carosello
+        // creo  un array di img per il carosello
         carouselImages: [
             "img/campagna.jpg",
             "img/cascate.webp",
